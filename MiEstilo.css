@@ -1,0 +1,52 @@
+
+body {
+    background: url(Imagenes/FONDO_F1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+header{
+
+    width: 100%;
+    height: 109px;
+    background: rgba(0, 0, 6, 0.34);
+
+
+
+    text-align: center;
+    color: #E0D1B3;
+    font-size: 3.8em;
+    position: fixed;
+    top: 0;
+
+
+
+}
+
+header img{
+    height: 109px;
+
+}
+
+
+nav{
+
+    position: absolute;
+    width: 294px;
+    height: 74px;
+
+    font-family: 'Reem Kufi Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #E0D1B3;
+}
+
+
+
+
+
