@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="384626ad-7cf5-436b-be64-6f7a8b9fc5fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Pilotos/alonso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Pilotos/ayrton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Pilotos/fangio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Pilotos/lewis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Pilotos/schumacher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wireframes/Diapositiva 01 hecha en Figma.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wireframes/Diapositiva 02 hecha en Figma.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wireframes/Diapositiva 03 hecha en Figma.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wireframes/Diapositiva 04 hecha en Figma.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Reem Kufi.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ReemKufi-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/blogfonts.com.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/acerca-de.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/creditos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/estilos/acercade.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/estilos/creditos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/estilos/jugar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/estilos/pilotos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/img/FONDO_F1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/img/arg-flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/img/br-flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/img/ger-flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/img/pngegg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/img/spain-flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/img/united-flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/jugar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pilotos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skecth/SKETCH.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/proyecto2023-irusta-combina.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiEstilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/MiEstilo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" afterPath="$PROJECT_DIR$/readme" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MiEstilo.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Pilotos.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2P0q1F6akvd3prLrM48FHL4pxja" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="384626ad-7cf5-436b-be64-6f7a8b9fc5fc" name="Changes" comment="" />
+      <created>1682604129238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682604129238</updated>
+      <workItem from="1682604130292" duration="4761000" />
+      <workItem from="1682711456900" duration="11438000" />
+      <workItem from="1682810768942" duration="16000" />
+      <workItem from="1683027705374" duration="4258000" />
+      <workItem from="1683400286961" duration="9905000" />
+      <workItem from="1683629414706" duration="700000" />
+      <workItem from="1683658548204" duration="11227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
