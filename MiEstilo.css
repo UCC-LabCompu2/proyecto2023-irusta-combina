@@ -14,12 +14,15 @@ a{
     color: white;
 }
 
-
+li {
+    list-style-type: none;
+}
 
 body {
     background-image: url(Imagenes/FONDO_F1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 header{
@@ -36,9 +39,6 @@ h1{
     margin: 0;
 }
 
-/* h1{
-    margin: 0;
-} */
 
 .logo {
     position: relative;
@@ -54,32 +54,11 @@ h1{
     width: 100%;
     
 }
-/* menu{
-    width: 294px;
-    height: 74px;
 
-}
-
-
-nav{
-    width: 294px;
-    height: 74px;
-    font-family: 'Racing Sans One', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 60px;
-    color: #E0D1B3;
-} */
 
 #menu li {
     margin-top: 2%;
 
-    /* width: 100px;
-    height: 20px;
-    background-color: blue;
-    text-align: center;
-    line-height: 20px; */
 
     list-style: none;
     display: inline-block;
@@ -93,7 +72,7 @@ nav{
     color:#E0D1B3;
 
     
-    /* border: 1px solid black; */
+
 }
 
 #menu ul {
@@ -121,21 +100,9 @@ nav{
     white-space: nowrap;
     }
 
-/* .miero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-     background-color: rgba(0, 0, 0, 0.3);
-     width: 100px;
-     height: 100px;
-} */
 
 
 #main-container {
-    /* position: relative;
-    top: 40px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,18 +110,12 @@ nav{
 
 }
 
-/* .F1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  font-size: 16px;  
-} */
+
 
 .F1 {
     position: absolute;
     width: 350px;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     padding: 15px;
@@ -169,7 +130,98 @@ nav{
     font-weight: 100;
     margin-bottom: 35px;
 }
+.container-sec {
+margin-bottom: 300px;}
+
+.escuderia{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #E0D1B3;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+.escuderia h3 {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
 
 
+.form-container {
+    margin-top: 40px;
+}
+
+.search-box {
+    position: relative;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: rgba(51, 48, 48, 0.3);
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.search-box:hover input{
+    width: 100%;
+}
+
+.search-box input {
+    width: 0;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.search-box ::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
 
 
+.search-box a i {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+#box-search-bars {
+    position: relative;
+    left: 1%;
+    background: rgba(51, 48, 48, 0.0);
+    opacity: 0;
+    transition: all opacity 0.5s ease;
+}
+
+#box-search-bars.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+#box-search-bars li a {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    transition: all 0.2s;
+}
+
+
+#box-search-bars li a:hover {
+    color: crimson;
+    background: #322f2f;
+}
+
+#box-search-bars li a i {
+    margin-right: 10px;
+}

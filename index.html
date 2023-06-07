@@ -7,6 +7,7 @@
     <meta content="Web de la F1 " name="descripcion">
     <meta content="Formula 1, Carreras" name="Palabras principales">
     <link rel="stylesheet" href="MiEstilo.css">
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
@@ -14,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/11747e3e23.js" crossorigin="anonymous"></script>
+    
+
 </head>
 <body>
 <header>
@@ -29,10 +34,9 @@
     <ul>
         <li><a href="pages/acerca-de.html">Acerca de la F1</a></li>
         <li class="special"><a href="pages/pilotos.html">Pilotos destacados</a></li>
-        <li><a href="pages/jugar.html">Jugar</a></li>
-        <li><a href="pages/creditos.html">Creditos</a></li>
+        <li><a href="pages/Juego%20de%20carreras/index.html">Jugar</a></li>
+        <li><a href="pages/creditos.html">Créditos</a></li>
     </ul>
-    <h2>Acerca de la F1</h2>
 </nav>
 
 <div id="main-container">
@@ -42,6 +46,28 @@
     </section>
 </div>
 
+<div class="container-sec">
+    <section class="escuderia">
+        <h3>Elija alguna escuderia</h3>
+    <div class="form-container">
+        <form class="search-box">
+            <input type="text" id="inputSearch" placeholder="¿Qué escuderia buscas?">
+           <a href="#"><i class="fa-solid fa-magnifying-glass" id="icon-search"></i></a>
+        </form>
+    </div>
 
+
+        <ul id="box-search-bars">
+            <li><a href="pages/pages-escuadras/aston-martin.html"><i class="fa-solid fa-magnifying-glass"></i>Aston Martin</a></li>
+            <li><a href="pages/pages-escuadras/ferrari.html"><i class="fa-solid fa-magnifying-glass"></i>Ferrari</a></li>
+            <li><a href="pages/pages-escuadras/mercedes.html"><i class="fa-solid fa-magnifying-glass"></i>Mercedes</a></li>
+        </ul>
+    </section>
+
+
+</div>
+<script src="index.js"></script>
 </body>
+
+
 </html>
