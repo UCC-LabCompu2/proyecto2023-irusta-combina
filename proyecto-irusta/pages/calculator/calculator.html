@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculadora</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <a href="../../index.html" class="back"><img src="../img/pngegg.png" alt="boton de volver auto formula uno"></a>
+    <div class="container">
+        <h1>Calculadora de Aceleración</h1>
+        <label for="peso-auto">Peso del Auto (kg):</label>
+        <input type="number" id="peso-auto" step="1">
+
+        <label for="caballos-fuerza">Potencia del Auto (caballos de fuerza):</label>
+        <input type="number" id="caballos-fuerza" step="1">
+
+        <label for="relacion-peso-potencia">Relación Peso/Potencia (kg/cv):</label>
+        <input type="number" id="relacion-peso-potencia" step="0.01">
+
+        <label for="tiempo-100kmh">Tiempo de Aceleración de 0 a 100 km/h:</label>
+        <p id="tiempo-100kmh">-</p>
+
+        <button onclick="calcularTiempoAceleracion()">Calcular</button>
+    </div>
+  </div>
+
+
+
+
+    <!-- SLIDERS -->
+    
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="img/mercedes-w12.jpg" alt="Mercedes Benz w12">
+                <div class="profile-name">
+                    <h2>MERCEDES W12</h2>
+                        <p>Peso del auto(kg): 752kg</p>
+                        <p>Potencia del auto(Caballos de fuerza): 1000cv</p>
+                        <p>Relacion Peso/Potencia(kg/cv): 2.28</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <img src="img/RB16B.jpg" alt="Red Bull RB16B">
+                <div class="profile-name">
+                    <h2>Red Bull RB16B</h2>
+                        <p>Peso del auto(kg): 752kg</p>
+                        <p>Potencia del auto(Caballos de fuerza): 1000cv</p>
+                        <p>Relacion Peso/Potencia(kg/cv): 2.28</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <img src="img/ferrari-sf1000.jpg" alt="Ferrari-sf1000">
+                <div class="profile-name">
+                    <h2>Ferrari sf1000</h2>
+                        <p>Peso del auto(kg): 746kg</p>
+                        <p>Potencia del auto(Caballos de fuerza): 1000cv</p>
+                        <p>Relacion Peso/Potencia(kg/cv): 2.3</p>
+                    </div>
+            </div>
+            <div class="slide">
+                <img src="img/mercedes-w11.jpg" alt="Mercedes Benz w11">
+                <div class="profile-name">
+                    <h2>Mercedes W11</h2>
+                        <p>Peso del auto(kg): 745kg</p>
+                        <p>Potencia del auto(Caballos de fuerza): 1020cv</p>
+                        <p>Relacion Peso/Potencia(kg/cv): 2.2R</p>
+                    </div>
+            </div>
+                <!-- slide images end -->
+                <!-- navegacion automatica -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!-- navegacion automatica fin -->
+        </div>
+            <!-- navegacion manual -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+    </div>
+    <script src="slider.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>

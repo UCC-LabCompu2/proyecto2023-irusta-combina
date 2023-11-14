@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="canvas.css">
+    <title>Canvas</title>
+</head>
+<body>
+    <section class="container">
+        <div id="toolbar">
+            <a href="../../index.html" class="back"><img src="../img/pngegg.png" alt="boton de volver auto formula uno"></a>
+            <h1>F1 Draw</h1>
+            <button id="startAnimation">Iniciar animacion</button>
+        <div class="container-function">
+            <label for="color">Color</label>
+            <input id="color" name='color' type="color">
+        </div>
+        <div class="container-function">
+            <label for="Espesor">Espesor</label>
+            <input id="Espesor" name='Espesor' type="number" value="5">
+        </div>
+            <button id="clear">Borrar</button>
+        </div>
+        <div class="drawing-board">
+            <canvas id="drawing-board"></canvas>
+        </div>
+    </section>
+    <script src="canvas.js"></script>
+</body>
+</html>
