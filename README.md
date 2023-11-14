@@ -1,5 +1,6 @@
 # proyecto2023
 Estructura de Proyecto Lab de Compu II - 2023
+[Despliegue](https://ucc-labcompu2.github.io/proyecto2023-irusta-combina/)
 
 ## Requisitos del Primer Parcial
 
