@@ -1,61 +1,78 @@
-/**
- * Ejecuta la funcion
- */
-document.querySelector(".search-box").addEventListener("click", mostrarListaDesplegable);
-document.getElementById("main-container").addEventListener("click", ocultarBuscador);
+const opcionesMenuDesplegable = [
+  {
+    nombre: "Calculadora de potencia",
+    url: "pages/calculator/calculator.html",
+  },
+  {
+    nombre: "Aston Martin",
+    url: "pages/pages-escuadras/aston-martin.html",
+  },
+  {
+    nombre: "Ferrari",
+    url: "pages/pages-escuadras/ferrari.html",
+  },
+  {
+    nombre: "Mercedes",
+    url: "pages/pages-escuadras/mercedes.html",
+  },
+];
 
+// Seleccionamos el elemento que contiene la lista desplegable
+const listaDesplegable = document.getElementById("box-search-bars");
 
-/**
- * Nombramos variables
- */
-var listaDesplegable = document.getElementById("box-search-bars");
-var inputSearch = document.getElementById("inputSearch");
-var ocultar_barra = document.getElementById("main-container");
-
-/**
- * Muestra la lista en la pagina principal
- */
-function mostrarListaDesplegable() {
+/*
+  @method {funcion anonima autoejecutable}
+  @description Esta funcion se encarga de cargar la lista desplegable
+  @return {void}
+*/
+(() => {
   listaDesplegable.classList.add("visible");
-  inputSearch.focus();
-}
+  listaDesplegable.innerHTML += opcionesMenuDesplegable
+    .map(
+      (opcion) =>
+        `
+        <li class="list-item">
+          <a href="${opcion.url}">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            ${opcion.nombre}
+          </a>
+        </li>
+      `
+    )
+    .join("");
+})();
 
-/** Verificar si se hizo clic dentro o fuera del buscador
- *
+/**
+ * @method buscadorInterno
+ * @params { e } evento del formulario
+ * @return { void } No retorna nada
+ * @description Esta funcion se encarga de buscar en la lista desplegable
  */
-function ocultarBuscador(event) {
-  if (!listaDesplegable.contains(event.target)) {
-    listaDesplegable.classList.remove("visible");
+function buscadorInterno(e) {
+  e.preventDefault();
+
+  // Se obtiene el elemento HTML input con el id inputSearch
+  const inputSearch = document.getElementById("inputSearch");
+
+  // Se busca dentro del array de objetos si existe el nombre ingresado si no existe se retorna undefined
+  const opcion = opcionesMenuDesplegable.find((opc) =>
+    opc.nombre.toLowerCase() == inputSearch.value.toLowerCase()
+      ? opc
+      : undefined
+  );
+
+  // Si no se encuentra el nombre ingresado se muestra un mensaje de error y se limpia el input
+  if (opcion == undefined) {
+    alert(`No se encontraron resultados para: "${inputSearch.value}"`);
+    inputSearch.value = "";
+    return;
   }
-}
 
-/**
- * Filtro de busqueda
- */
-
-document.getElementById("inputSearch").addEventListener("keyup", buscadorInterno);
-
-/**
- * Recorre los elementos filtrados
- */
-function buscadorInterno() {
-  var filter = inputSearch.value.toUpperCase();
-  var li = listaDesplegable.getElementsByTagName("li");
-  var encontrado = false; // Variable para verificar si se encuentra algún valor
-
-  for (var i = 0; i < li.length; i++) {
-    var a = li[i].getElementsByTagName("a")[0];
-    var textValue = a.textContent || a.innerText;
-
-    if (textValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-      encontrado = true; // Se encontró al menos un valor
-    } else {
-      li[i].style.display = "none";
+  // Se recorre el array de objetos y se compara si el nombre ingresado es igual al nombre del objeto si es asi se redirecciona a la url asociada al objeto
+  opcionesMenuDesplegable.forEach((opc) => {
+    if (opc.nombre === opcion.nombre) {
+      window.location.href = opc.url;
     }
-  }
-
-  if (!encontrado) {
-    alert("No se encontró ningún valor de ese tipo");
-  }
+  });
+  inputSearch.value = "";
 }
