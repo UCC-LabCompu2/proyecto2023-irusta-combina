@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    /* background-color: aqua; */
+    background-image: url(../img/FONDO_F1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: rgba(0, 0, 6, 0.34);
+    height: 80px;
+    font-family: 'Oswald', sans-serif;
+    color: #E0D1B3;
+}
+
+
+.back {
+    text-decoration: none;
+    position: absolute;
+    top: -5px;
+    font-size: 40px;
+    margin: 0px 0px 0px  20px;
+    color: black;
+    transition: all 0.25s;
+}
+
+.back:hover{
+    transform: translateX(-10px);
+    /* box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); */
+}
+.back img {
+    width: 50px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo h1{
+    font-size: 59.9px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+#logo img {
+
+    width: 300px;
+
+}
+
+
+.main-container {
+    height: calc(100vh - 100px);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ }
+
+#main-canvas {
+    width: 700px;
+    height: 400px;
+    background: white;
+    overflow: hidden;
+}
